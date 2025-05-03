@@ -1,5 +1,4 @@
 
-
 body{
     background-color: blueviolet;
     display: flex;
@@ -93,19 +92,4 @@ h1,p{
     transform: scale(1.2);
 }
 
-/* Mobile responsive adjustments */
-@media (max-width: 600px) {
-    h1, p {
-        font-size: 1.2rem;
-    }
 
-    button.drum {
-        width: 80px;
-        height: 80px;
-        font-size: 1.2rem;
-    }
-
-    .drum-buttons {
-        gap: 0.5rem;
-    }
-}
